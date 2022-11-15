@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %} List Data {% endblock %}
+{% block header %} Table Data {% endblock %}
+
+{% block body %}
+<b1> <a href= "#" class="btn btn-primary">Input Data</a></b1>
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+        <th scope="col">No</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Telp</th>
+        <th scope="col">Address</th>
+        <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Kiishi Ifebajo</td>
+            <td>kiishi@gmail.com</td>
+            <td> 0877603929</td>
+            <td>13 finnsvale</td>
+                <td>
+                    <a href="#" class="btn btn-warning">Edit</a>
+                    <a href="#" class="btn btn-danger" onclick="return confirm('Are you sure delete this data?')">Delete</a>
+                </td>
+            </tr>
+    </tbody>
+</table>
+{% endblock %}
