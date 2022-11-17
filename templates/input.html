@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %} input data {% endblock %}
+
+{% block header %} Add New Data {% endblock %}
+
+{% block body %}
+    <a href="{{ url_for('home') }}" class="btn btn-primary">Back Home</a>
+
+    <div class="card-body">
+        <form action="#" method="POST">
+        <div class="form-group">
+        <label for="first_name">First name:</label>
+        <div class="input-group">
+        <div class="input-group-prepend">
+        <div class="input-group-text">#</div>
+        </div>
+        <input type="text" id="" class="form-control" placeholder="Input Name" name="last_name">
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name:</label>
+                <div class="input-group">
+                <div class="input-group-prepend">
+                <div class="input-group-text">#</div>
+                </div>
+                <input type="text" id="last_name" class="form-control" placeholder="Input last Name" name="last_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <div class="input-group">
+                        <div class="input-group-prepend">
+                        <div class="input-group-text">#</div>
+                        </div>
+                        <input type="text" id="dob" class="form-control" placeholder="Input address" name="dob">
+                            </div>
+                            <div class="form-group">
+                                <label for="">dob:</label>
+                                <div class="input-group">
+                                <div class="input-group-prepend">
+                                <div class="input-group-text">#</div>
+                                </div>
+                                <input type="text" id="email_address" class="form-control" placeholder="Input email address" name="email address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">email address:</label>
+                                        <div class="input-group">
+                                        <div class="input-group-prepend">
+                                        <div class="input-group-text">@</div>
+                                        </div>
+                                            </div>
+                            
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-success btn-sm" name="submit">Submit</button>
+                                                <button type="reset" class="btn btn-danger btn-sm">Cancel</button>
+                                            </div>
+        </form>
+        </div>
+
+{% endblock %}
