@@ -22,6 +22,9 @@ This Student Managment App allows Users to create, read, update delete their cou
 Software risk management is a balance of risk and reward, therefore it is essential that—as the team reviews the requirements (user stories in the product backlog)—it must also evaluate the risk for each one. In software, a high risk often does not correspond with a high reward. Instead, the driving question for managing risk should be: Does the potential reward for each story or requirement warrant the level of risk that the team is assuming as it proceeds with development? By considering alternatives, a development team can often achieve (nearly) the same level of reward without nearly as much risk. Adoption of this posture will help improve requirements prioritization.
 ![](Screenshot%202022-11-17%20at%2012.35.18.png)
 
+# Trello Board
+![](Screenshot%202022-11-17%20at%2012.49.34.png)
+![](Screenshot%202022-11-17%20at%2012.49.44.png)
 # Version Control
 I used Git for Version Control and hosted the project repository on Github. When I as done, I committed that as a "main" branch. And I created a "dev" branch where I did all my coding.
 
